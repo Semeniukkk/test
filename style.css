@@ -1,0 +1,70 @@
+.page{
+   margin: auto;
+   width: 800px;
+   border: 5px solid black;
+   font-family: Verdana;
+   background-color: cornsilk;
+   padding: 10px;
+}
+.header{
+    margin: 5px;
+}
+
+
+.my-photo{
+    border-radius: 25px;
+}
+.phone{
+    list-style-type: none;
+}
+.phone::before{
+    content: "\2706";
+}
+.home{
+    list-style-type: none;
+}
+.home::before{
+    content: "\2602";
+}
+.e-mail{
+    list-style-type: none;
+}
+.e-mail::before{
+    content: "\1F582";
+}
+.linkedin{
+    list-style-type: none;
+}
+.linkedin::before{
+    content: "\270E";
+}
+.tech-skills-item {
+    list-style-type: circle;
+}
+.soft-skills-item{
+    list-style-type: circle;
+}
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+}
+
+
+.some-logo-youtube {
+    width: 40px;
+    height: 40px;
+}
+.some-logo-github{
+    idth: 40px;
+    height: 40px;
+}
+
+.logo-rs{
+    width: 40px;
+    height: 40px;
+}
+.some-logo-year {
+    width: 40px;
+    height: 40px;
+}
