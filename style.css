@@ -1,10 +1,17 @@
 .page{
    margin: auto;
    width: 800px;
-   border: 5px solid black;
    font-family: Verdana;
-   background: cornsilk;
+   background: rgb(255, 255, 255);
    padding: 10px;
+}
+
+.main-page-bloc{
+    background: hsla(71, 12%, 73%, 0.884);
+    border: 5px solid black;
+    margin: auto;
+    padding: 5px;
+
 }
 
 .header{
@@ -13,7 +20,7 @@
 
 .my-photo{
     border-radius: 25px;
-    width: 400px;
+    width: 300px;
 }
 
 .phone{
@@ -57,9 +64,13 @@
 }
 
 .footer{
-    margin-left: auto;
-    margin-right: auto;
-    width: 12em;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+.author{ 
+    font-size: small;
 }
 
 .some-logo-youtube {
@@ -81,3 +92,9 @@
     width: 40px;
     height: 40px;
 }
+
+
+.english {
+    font-family: cursive;
+    font-size: medium;
+
