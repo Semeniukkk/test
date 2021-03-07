@@ -3,7 +3,7 @@
    width: 800px;
    border: 5px solid black;
    font-family: Verdana;
-   background-color: cornsilk;
+   background: cornsilk;
    padding: 10px;
 }
 
@@ -13,6 +13,7 @@
 
 .my-photo{
     border-radius: 25px;
+    width: 400px;
 }
 
 .phone{
